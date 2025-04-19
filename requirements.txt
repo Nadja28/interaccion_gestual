@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+opencv-python
+mediapipe
+numpy
+asyncio
+pdf2image
+PyPDF2

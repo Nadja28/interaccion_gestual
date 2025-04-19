@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #c8e0ec;
+}
+
+.app-container {
+    width: 90%;
+    margin: 30px auto;
+    background: #f7f5dc;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+header {
+    background-color: #f7f5dc;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #666;
+    font-weight: bold;
+}
+
+.reader-container {
+    display: flex;
+    background: #e1e4e5;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sidebar {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.status-box {
+    background-color: white;
+    border: 2px solid #d33;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #d33;
+}
+
+.pdf-view {
+    flex: 1;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+    border: 2px solid #d33;
+    border-radius: 8px;
+    height: 80vh; /* Ajuste mejorado */
+    overflow: hidden;
+}
+
+#pdf-image {
+    max-height: 100%;
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
