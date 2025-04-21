@@ -43,6 +43,8 @@ socket.onmessage = function(event) {
         approved = false;
     }
 
+    console.log("Aprobado:", approved);
+
     if (approved && pendingGesture) {
         if (gestureTimer) clearTimeout(gestureTimer);
 
@@ -68,7 +70,7 @@ socket.onmessage = function(event) {
 
             pendingGesture = null;
             approved = false;
-        }, 500);
+        }, 1000);
     }
 };
 

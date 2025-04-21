@@ -1,8 +1,11 @@
 fastapi
 uvicorn
+uvicorn[standard]
 opencv-python
 mediapipe
 numpy
 asyncio
 pdf2image
 PyPDF2
+jinja2
+websockets
